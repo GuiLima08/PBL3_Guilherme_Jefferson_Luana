@@ -56,7 +56,7 @@ module mainCode(
 	);
 	
 	//maquina de estados do sentido do elevador (matriz)
-	directLogic(
+	directLogic matrix(
 		.P(w_door), .CH1(CH1), .CH2(CH2), .CH3(CH3),
 		.A(floor_out), .MU(MU), .MM(MM), .MD(MD)
 	);
